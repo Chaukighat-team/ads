@@ -8,3 +8,8 @@
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+<form id="uploadbanner" enctype="multipart/form-data" method="post" action="#">
+   <input id="fileupload" name="myfile" type="file" />
+   <input type="submit" value="submit" id="submit" />
+</form>
